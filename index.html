@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>...</title>
+<link rel="stylesheet" type="text/css" href="background.css"/>
+<style type="text/css">
+
+.style1 {
+	font-size:large; color:transparent;
+}
+.style2 {background-color:maroon}
+
+.footer-text {
+  position: relative;
+  top:700px;
+  width: 100%;
+  text-align: center;color:transparent; font-size:small; 
+}
+.maindiv {
+	position:relative;
+	min-height:500px;
+	top:100px
+}
+</style>
+<script type="text/javascript">
+function checkpass() {
+    var pass = document.getElementById("passInput").value;
+    if (pass === "EXPERIMENT") {
+        window.location.href ="LORE.html";
+    } else {
+        alert("ACCESS DENIED");
+    }
+}
+</script>
+</head>
+
+<body>
+<div>
+
+<div class="maindiv">
+<p align="center" class="style1">
+THIS IS PERSONAL, GO AWAY.
+</p>
+
+<p align="center" class="style1">
+WHY ARE YOU HERE, GET OUT.
+</p>
+</div>
+
+<div align="center" style="position:relative; top:50px">
+<input type="password" id="passInput" placeholder="INPUT PASSWORD."/>
+<button type="button" onclick="checkpass()" >GO</button>
+</div>
+
+</div>
+
+
+<div class="footer-text" style="elevation:below">
+<p>VEhFIENPREUgSVM6IEVYUEVSSU1FTlQ</p>
+</div>
+</body>
+
+</html>
